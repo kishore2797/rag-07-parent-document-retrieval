@@ -67,6 +67,18 @@ npm run dev
 
 Open http://localhost:5173 — ingest documents, query, and inspect child vs. parent chunks.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It stores child chunks for retrieval and returns expanded parent sections as context.
+
 ## 📖 What You'll Learn
 
 1. Why the best retrieval chunk size differs from the best generation chunk size
